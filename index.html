@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Riasat News</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="logo">Riasat<span>News</span></div>
+      <nav>
+        <ul>
+          <li><a href="#" data-category="world">World</a></li>
+          <li><a href="#" data-category="business">Business</a></li>
+          <li><a href="#" data-category="technology">Tech</a></li>
+          <li><a href="#" data-category="sports">Sports</a></li>
+          <li><a href="#" data-category="health">Health</a></li>
+        </ul>
+      </nav>
+      <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Search news..." />
+        <button id="searchBtn">Search</button>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <section id="news-container" class="news-grid"></section>
+      <button id="loadMoreBtn" class="load-more">Load More</button>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2025 RiasatNews | Powered by GNews API</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
